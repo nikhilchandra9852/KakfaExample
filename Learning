@@ -1,0 +1,4 @@
+To run the Zookeeper service -- > bin/zookeeper-server-start.sh config/zookeeper.properties
+To run the kafka server --> bin/kafka-server-start.sh config/server.properties
+
+To check the messages from the listener -- > bin/kafka-console-consumer.sh --topic nikhilTopic --from-beginning --bootstrap-server localhost:9092
